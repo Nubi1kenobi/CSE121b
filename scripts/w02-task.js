@@ -56,14 +56,3 @@
         favFood.pop();
     // 9. Append the array output with this final modified favorite foods array. Hint: Step 5.5.
         foodElement.innerHTML += `<br> ${favFood}`;
-
-        let nameElement = document.getElementById("name");  
-        nameElement.innerHTML = `<strong> ${fullName} <strong>`;
-        section.innerHTML = `<h3> ${h3} </h3>`;
-        section.push(h3);
-        const ward = "<strong>Home Ward</strong>: " + homeWard;
-        const ward = `<strong>Home Ward</strong>: ${homeWard}`;
-
-        speed -= 5;
-
-        document.querySelector("section").innerHTML += `<h3> ${section} ,<h3>`;  
