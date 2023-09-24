@@ -35,6 +35,17 @@
         where the name variable comes from Step 2. Always use a template literal to create the string. */
         document.querySelector("img").setAttribute("alt",`Profile image of ${fullName}`);  
 
+        let nameElement = document.getElementById("name");  
+        nameElement.innerHTML = `<strong> ${fullName} <strong>`;
+        section.innerHTML = `<h3> ${h3} </h3>`;
+        section.push(h3);
+        const ward = "<strong>Home Ward</strong>: " + homeWard;
+        const ward = `<strong>Home Ward</strong>: ${homeWard}`;
+
+        speed -= 5;
+
+        document.querySelector("section").innerHTML += `<h3> ${section} ,<h3>`;  
+
 /* Step 5 - Array */
     // 1. Declare an array variable to hold your favorite foods.
         let favFood = [" Beans ", " My Stir Fry", " Filet Mignon (Blue Rare)", " Smoked Meats (most types)", " Homemade Sourdough Pizza"," Homemade Sourdough Waffles"]
